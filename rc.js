@@ -1,6 +1,6 @@
 const path = require('path')
 const minimist = require('minimist')
-const getAbi = require('node-abi').getAbi
+const getAbi = require('@frida/node-abi').getAbi
 const detectLibc = require('detect-libc')
 const napi = require('napi-build-utils')
 
