@@ -1,5 +1,5 @@
 {
-  "name": "prebuild-install",
+  "name": "@frida/prebuild-install",
   "version": "7.1.1",
   "description": "A command line tool to easily install prebuilt binaries for multiple version of node/iojs on a specific platform",
   "scripts": {
@@ -44,7 +44,7 @@
   "bin": "./bin.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/prebuild/prebuild-install.git"
+    "url": "https://github.com/frida/prebuild-install.git"
   },
   "author": "Mathias Buus (@mafintosh)",
   "contributors": [
@@ -63,5 +63,8 @@
   "homepage": "https://github.com/prebuild/prebuild-install",
   "engines": {
     "node": ">=10"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
